@@ -1,4 +1,4 @@
-package depthfirstsearch;
+package breadthfirstsearch.depthfirstsearch;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ public class Node {
     private boolean visited;
     private List<Node> adjacentList;
 
-    Node(String name) {
+    public Node(String name) {
         this.name = name;
         this.adjacentList = new ArrayList<Node>();
     }

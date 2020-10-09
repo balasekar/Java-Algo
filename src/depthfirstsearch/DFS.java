@@ -2,15 +2,15 @@ package depthfirstsearch;
 
 import java.util.Stack;
 
-public class DFS {
+class DFS {
 
     Stack<Node> nodeStack;
 
-    public DFS() {
+    DFS() {
         nodeStack = new Stack<>();
     }
 
-    public boolean hasPathDFSStack(Node source, Node destination){
+    boolean hasPathDFSStack(Node source, Node destination){
         nodeStack.push(source);
         while(!nodeStack.isEmpty()){
             Node currentNode = nodeStack.pop();
@@ -28,7 +28,7 @@ public class DFS {
         return false;
     }
 
-    public boolean hasPathDFS(Node source, Node destination) {
+    boolean hasPathDFS(Node source, Node destination) {
         System.out.println("currentNode: "+source);
         if(source.isVisited()){
             return false;
