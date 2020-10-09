@@ -4,32 +4,42 @@ import java.util.Stack;
 
 public class DFS {
 
-    private Stack<Node> stack;
+    Stack<Node> nodeStack;
 
     public DFS() {
-        this.stack = new Stack<>();
+        nodeStack = new Stack<>();
     }
 
-    public void dfs(Node node) {
-        if(!node.isVisited()) {
-            node.setVisited(true);
-            dfsWithStack(node);
-        }
-    }
-
-    private void dfsWithStack(Node rootNode) {
-        this.stack.add(rootNode);
-        rootNode.setVisited(true);
-
-        while(! stack.isEmpty()) {
-            Node currentNode = this.stack.pop();
-            System.out.println("currentNode: "+ currentNode + " ");
-            for(Node node : currentNode.getAdjacentList()) {
-                if( !node.isVisited() ) {
-                    node.setVisited(true);
-                    this.stack.push(node);
+    public boolean hasPathDFSStack(Node source, Node destination){
+        nodeStack.push(source);
+        while(!nodeStack.isEmpty()){
+            Node currentNode = nodeStack.pop();
+            if(!currentNode.isVisited()){
+                currentNode.setVisited(true);
+                System.out.println("Stack DFS: "+currentNode);
+                if(currentNode == destination) return true;
+                for(Node child : currentNode.getAdjacentList()) {
+                    if(!child.isVisited()) {
+                        nodeStack.push(child);
+                    }
                 }
             }
         }
+        return false;
+    }
+
+    public boolean hasPathDFS(Node source, Node destination) {
+        System.out.println("currentNode: "+source);
+        if(source.isVisited()){
+            return false;
+        }
+        source.setVisited(true);
+        if(source == destination) return true;
+        for(Node child : source.getAdjacentList()) {
+            if(hasPathDFS(child, destination)){
+                return true;
+            }
+        }
+        return false;
     }
 }

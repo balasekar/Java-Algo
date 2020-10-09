@@ -11,6 +11,7 @@ public class App {
         Node n3 = new Node("3");
         Node n4 = new Node("4");
         Node n5 = new Node("5");
+        Node n6 = new Node("6");
 
         n1.addAdjacent(n2);
         n1.addAdjacent(n3);
@@ -25,6 +26,8 @@ public class App {
         list.add(n5);
 
         DFS dfs = new DFS();
-        dfs.dfs(n1);
+        System.out.println("DFS has Path n1 to n5?:"+ dfs.hasPathDFS(n1, n5));
+        System.out.println("DFS stack has Path n1 to n5?:"+ dfs.hasPathDFSStack(n1, n5));
+        System.out.println("DFS has Path n1 to n6?:"+ dfs.hasPathDFS(n1, n6));
     }
 }
