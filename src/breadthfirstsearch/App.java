@@ -1,4 +1,4 @@
-package breadthfirstsearch.depthfirstsearch;
+package breadthfirstsearch;
 
 import java.util.ArrayList;
 import java.util.List;
