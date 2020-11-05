@@ -15,8 +15,11 @@ public class SolutionIterative {
         SolutionIterative solIterative = new SolutionIterative();
         System.out.println("Acutal Linked list");
         solIterative.printNodes(node1);
+//        System.out.println("Modified Linked List");
+//        Node nodeAltered = solIterative.reverseLinkedList(node1);
+//        solIterative.printNodes(nodeAltered);
         System.out.println("Modified Linked List");
-        Node nodeAltered = solIterative.reverseLinkedList(node1);
+        Node nodeAltered = solIterative.reverseRecursive(node1, null);
         solIterative.printNodes(nodeAltered);
     }
 
@@ -37,6 +40,18 @@ public class SolutionIterative {
         }
 
         return prev;
+    }
+
+    private Node reverseRecursive(Node head, Node prev) {
+        if(head == null) return prev;
+
+        Node temp = head.next;
+        head.next = prev;
+        prev = head;
+        head = temp;
+
+        return reverseRecursive(head, prev);
+
     }
 
     private void printNodes(Node head) {
