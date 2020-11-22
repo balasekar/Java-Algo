@@ -1,4 +1,4 @@
-package google;
+package google.arraysAndStrings;
 
 import java.util.Arrays;
 
