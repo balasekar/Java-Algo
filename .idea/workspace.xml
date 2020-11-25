@@ -2,39 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc21e703-d882-4645-b56b-a78712ae11e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/google/arraysAndStrings/RotateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/google/arraysAndStrings/LongestSubstring2DistinctChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/google/arraysAndStrings/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/google/arraysAndStrings/MissingRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/google/arraysAndStrings/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/google/arraysAndStrings/ReaderNChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/google/MultiplyStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/google/arraysAndStrings/MultiplyStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/google/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/google/arraysAndStrings/NextPermutation.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/google/arraysAndStrings/RotateMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/google/arraysAndStrings/JumpGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,78 +41,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/depthfirstsearch/Vertex.java" />
-        <option value="$PROJECT_DIR$/src/depthfirstsearch/App.java" />
-        <option value="$PROJECT_DIR$/src/breadthfirstsearch/depthfirstsearch/Node.java" />
-        <option value="$PROJECT_DIR$/src/depthfirstsearch/Node.java" />
-        <option value="$PROJECT_DIR$/src/depthfirstsearch/DFS.java" />
-        <option value="$PROJECT_DIR$/src/breadthfirstsearch/depthfirstsearch/BFS.java" />
-        <option value="$PROJECT_DIR$/src/breadthfirstsearch/depthfirstsearch/App.java" />
-        <option value="$PROJECT_DIR$/src/breadthfirstsearch/App.java" />
-        <option value="$PROJECT_DIR$/src/matchingparanthesis/MatchParanthesis.java" />
-        <option value="$PROJECT_DIR$/src/reverselinkedlist/Node.java" />
-        <option value="$PROJECT_DIR$/src/reverselinkedlist/SolutionIterative.java" />
-        <option value="$PROJECT_DIR$/src/sorting/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/src/sorting/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/sorting/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/sorting/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/sorting/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/sorting/Data.java" />
-        <option value="$PROJECT_DIR$/src/sorting/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/google/NextPermutation.java" />
-        <option value="$PROJECT_DIR$/src/google/MultiplyStrings.java" />
-        <option value="$PROJECT_DIR$/src/google/arraysAndStrings/NextPermutation.java" />
-        <option value="$PROJECT_DIR$/src/google/arraysAndStrings/RotateMatrix.java" />
-      </list>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1680" />
-    <option name="y" value="-474" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="y" value="-444" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
+  <component name="ProjectId" id="1kmN8HxZPJlGQVyXRoiU0q2eVQh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Java-Algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Algo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Algo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Algo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="arraysAndStrings" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="GO_FMT" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606045007721" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606233645951" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -133,34 +71,9 @@
       <recent name="C:\Users\egnabal\workspace\Java-Algo\src\breadthfirstsearch" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.JumpGame">
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.HeapSort" />
-      <module name="Java-Algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.JumpGame" />
+  <component name="RunManager" selected="Application.NextClosestTime">
+    <configuration name="LongestSubstring2DistinctChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.LongestSubstring2DistinctChars" />
       <module name="Java-Algo" />
       <extension name="coverage">
         <pattern>
@@ -172,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.MultiplyStrings" />
+    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.MinimumWindowSubstring" />
       <module name="Java-Algo" />
       <extension name="coverage">
         <pattern>
@@ -185,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.NextPermutation" />
+    <configuration name="MissingRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.MissingRanges" />
       <module name="Java-Algo" />
       <extension name="coverage">
         <pattern>
@@ -198,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.RotateMatrix" />
+    <configuration name="NextClosestTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.NextClosestTime" />
       <module name="Java-Algo" />
       <extension name="coverage">
         <pattern>
@@ -207,27 +120,52 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.PlusOne" />
+      <module name="Java-Algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="google.arraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HeapSort" />
-      <item itemvalue="Application.NextPermutation" />
-      <item itemvalue="Application.MultiplyStrings" />
-      <item itemvalue="Application.RotateMatrix" />
-      <item itemvalue="Application.JumpGame" />
+      <item itemvalue="Application.PlusOne" />
+      <item itemvalue="Application.MinimumWindowSubstring" />
+      <item itemvalue="Application.LongestSubstring2DistinctChars" />
+      <item itemvalue="Application.MissingRanges" />
+      <item itemvalue="Application.NextClosestTime" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JumpGame" />
-        <item itemvalue="Application.RotateMatrix" />
-        <item itemvalue="Application.MultiplyStrings" />
-        <item itemvalue="Application.NextPermutation" />
-        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.NextClosestTime" />
+        <item itemvalue="Application.MissingRanges" />
+        <item itemvalue="Application.LongestSubstring2DistinctChars" />
+        <item itemvalue="Application.MinimumWindowSubstring" />
+        <item itemvalue="Application.PlusOne" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -246,7 +184,8 @@
       <workItem from="1605017987468" duration="361000" />
       <workItem from="1605250803603" duration="2332000" />
       <workItem from="1605872446847" duration="462000" />
-      <workItem from="1605962470565" duration="4344000" />
+      <workItem from="1605962470565" duration="5618000" />
+      <workItem from="1606301653192" duration="2124000" />
     </task>
     <task id="LOCAL-00001" summary="Depth First Search implemented">
       <created>1602246218491</created>
@@ -332,51 +271,18 @@
       <option name="project" value="LOCAL" />
       <updated>1605963440753</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Jump Game&#10;Rotate Matrix">
+      <created>1606045090449</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606045090449</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32228000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1680" y="-474" width="1920" height="1057" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16027689" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Learn" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="UI Designer" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29740933" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32915717" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.3284974" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.36104783" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="SciView" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Palette" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Depth First Search implemented" />
@@ -388,177 +294,29 @@
     <MESSAGE value="Quick Sort implemented" />
     <MESSAGE value="Heap Sort implemented" />
     <MESSAGE value="Multiply strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multiply strings" />
+    <MESSAGE value="Jump Game&#10;Rotate Matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jump Game&#10;Rotate Matrix" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/breadthfirstsearch/BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/breadthfirstsearch/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matchingparanthesis/MatchParanthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reverselinkedlist/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/depthfirstsearch/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reverselinkedlist/SolutionIterative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/breadthfirstsearch/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" selection-start-line="52" selection-end-line="54" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/depthfirstsearch/DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/depthfirstsearch/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4828">
-          <caret line="284" column="45" selection-start-line="284" selection-start-column="45" selection-end-line="284" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7463">
-          <caret line="483" column="69" selection-start-line="483" selection-start-column="29" selection-end-line="483" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/google/arraysAndStrings/MultiplyStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/google/arraysAndStrings/NextPermutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/google/arraysAndStrings/RotateMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="268" key="GridCell.Tab.0.bottom" timestamp="1606303561756">
+      <screen x="1680" y="-474" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="268" key="GridCell.Tab.0.bottom/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606303561756" />
+    <state width="1878" height="268" key="GridCell.Tab.0.center" timestamp="1606303561755">
+      <screen x="1680" y="-474" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="268" key="GridCell.Tab.0.center/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606303561755" />
+    <state width="1878" height="268" key="GridCell.Tab.0.left" timestamp="1606303561754">
+      <screen x="1680" y="-474" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="268" key="GridCell.Tab.0.left/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606303561754" />
+    <state width="1878" height="268" key="GridCell.Tab.0.right" timestamp="1606303561755">
+      <screen x="1680" y="-474" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="268" key="GridCell.Tab.0.right/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606303561755" />
+    <state x="2305" y="-239" width="670" height="676" key="search.everywhere.popup" timestamp="1606301869496">
+      <screen x="1680" y="-474" width="1920" height="1057" />
+    </state>
+    <state x="2305" y="-239" width="670" height="676" key="search.everywhere.popup/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606301869496" />
   </component>
 </project>
