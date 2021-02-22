@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc21e703-d882-4645-b56b-a78712ae11e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/google/arraysAndStrings/LongestSubstring2DistinctChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/google/arraysAndStrings/MinimumWindowSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/google/arraysAndStrings/MissingRanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/google/arraysAndStrings/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/google/arraysAndStrings/ReaderNChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/amazon/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/amazon/Problem1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/amazon/Problem2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/amazon/Problem3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +40,6 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1680" />
-    <option name="y" value="-444" />
-    <option name="width" value="1680" />
-    <option name="height" value="1027" />
-  </component>
   <component name="ProjectId" id="1kmN8HxZPJlGQVyXRoiU0q2eVQh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,23 +47,36 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606233645951" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/amazon" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/amazon" />
       <recent name="C:\Users\egnabal\workspace\Java-Algo\src\breadthfirstsearch" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NextClosestTime">
-    <configuration name="LongestSubstring2DistinctChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.LongestSubstring2DistinctChars" />
+  <component name="RunManager" selected="Application.Problem3">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="amazon.Demo" />
+      <module name="Java-Algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaTutorials" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.JavaTutorials" />
       <module name="Java-Algo" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.MinimumWindowSubstring" />
+    <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="amazon.Problem1" />
       <module name="Java-Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="google.arraysAndStrings.*" />
+          <option name="PATTERN" value="amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.MissingRanges" />
+    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="amazon.Problem2" />
       <module name="Java-Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="google.arraysAndStrings.*" />
+          <option name="PATTERN" value="amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,25 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextClosestTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.NextClosestTime" />
+    <configuration name="Problem3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="amazon.Problem3" />
       <module name="Java-Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="google.arraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="google.arraysAndStrings.PlusOne" />
-      <module name="Java-Algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="google.arraysAndStrings.*" />
+          <option name="PATTERN" value="amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PlusOne" />
-      <item itemvalue="Application.MinimumWindowSubstring" />
-      <item itemvalue="Application.LongestSubstring2DistinctChars" />
-      <item itemvalue="Application.MissingRanges" />
-      <item itemvalue="Application.NextClosestTime" />
+      <item itemvalue="Application.JavaTutorials" />
+      <item itemvalue="Application.Problem1" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.Problem2" />
+      <item itemvalue="Application.Problem3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NextClosestTime" />
-        <item itemvalue="Application.MissingRanges" />
-        <item itemvalue="Application.LongestSubstring2DistinctChars" />
-        <item itemvalue="Application.MinimumWindowSubstring" />
-        <item itemvalue="Application.PlusOne" />
+        <item itemvalue="Application.Problem3" />
+        <item itemvalue="Application.Problem2" />
+        <item itemvalue="Application.Problem1" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.JavaTutorials" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +175,9 @@
       <workItem from="1605250803603" duration="2332000" />
       <workItem from="1605872446847" duration="462000" />
       <workItem from="1605962470565" duration="5618000" />
-      <workItem from="1606301653192" duration="2124000" />
+      <workItem from="1606301653192" duration="2583000" />
+      <workItem from="1606317123894" duration="721000" />
+      <workItem from="1613883831641" duration="11671000" />
     </task>
     <task id="LOCAL-00001" summary="Depth First Search implemented">
       <created>1602246218491</created>
@@ -278,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606045090449</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added few more algos">
+      <created>1606304090542</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606304090542</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,25 +294,66 @@
     <MESSAGE value="Heap Sort implemented" />
     <MESSAGE value="Multiply strings" />
     <MESSAGE value="Jump Game&#10;Rotate Matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jump Game&#10;Rotate Matrix" />
+    <MESSAGE value="Added few more algos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added few more algos" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="268" key="GridCell.Tab.0.bottom" timestamp="1606303561756">
+    <state x="607" y="23" key="#Auto_Import" timestamp="1613884378949">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="607" y="23" key="#Auto_Import/0.23.1680.970@0.23.1680.970" timestamp="1613884378949" />
+    <state x="2247" y="-382" key="CommitChangelistDialog2" timestamp="1606304090368">
       <screen x="1680" y="-474" width="1920" height="1057" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.0.bottom/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606303561756" />
-    <state width="1878" height="268" key="GridCell.Tab.0.center" timestamp="1606303561755">
+    <state x="2247" y="-382" key="CommitChangelistDialog2/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606304090368" />
+    <state width="520" height="466" key="DebuggerActiveHint" timestamp="1613891207846">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="520" height="466" key="DebuggerActiveHint/0.23.1680.970@0.23.1680.970" timestamp="1613891207846" />
+    <state width="1638" height="241" key="GridCell.Tab.0.bottom" timestamp="1614003683034">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="241" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1614003683034" />
+    <state width="1878" height="268" key="GridCell.Tab.0.bottom/1680.-474.1920.1000/0.23.1680.1027@1680.-474.1920.1000" timestamp="1606329139441" />
+    <state width="1878" height="268" key="GridCell.Tab.0.bottom/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606304274969" />
+    <state width="1638" height="241" key="GridCell.Tab.0.center" timestamp="1614003683033">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="241" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1614003683033" />
+    <state width="1878" height="268" key="GridCell.Tab.0.center/1680.-474.1920.1000/0.23.1680.1027@1680.-474.1920.1000" timestamp="1606329139441" />
+    <state width="1878" height="268" key="GridCell.Tab.0.center/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606304274969" />
+    <state width="1638" height="241" key="GridCell.Tab.0.left" timestamp="1614003683033">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="241" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1614003683033" />
+    <state width="1878" height="268" key="GridCell.Tab.0.left/1680.-474.1920.1000/0.23.1680.1027@1680.-474.1920.1000" timestamp="1606329139440" />
+    <state width="1878" height="268" key="GridCell.Tab.0.left/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606304274968" />
+    <state width="1638" height="241" key="GridCell.Tab.0.right" timestamp="1614003683034">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="241" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1614003683034" />
+    <state width="1878" height="268" key="GridCell.Tab.0.right/1680.-474.1920.1000/0.23.1680.1027@1680.-474.1920.1000" timestamp="1606329139441" />
+    <state width="1878" height="268" key="GridCell.Tab.0.right/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606304274969" />
+    <state width="1638" height="323" key="GridCell.Tab.1.bottom" timestamp="1613908369867">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="323" key="GridCell.Tab.1.bottom/0.23.1680.970@0.23.1680.970" timestamp="1613908369867" />
+    <state width="1638" height="323" key="GridCell.Tab.1.center" timestamp="1613908369866">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="323" key="GridCell.Tab.1.center/0.23.1680.970@0.23.1680.970" timestamp="1613908369866" />
+    <state width="1638" height="323" key="GridCell.Tab.1.left" timestamp="1613908369866">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="323" key="GridCell.Tab.1.left/0.23.1680.970@0.23.1680.970" timestamp="1613908369866" />
+    <state width="1638" height="323" key="GridCell.Tab.1.right" timestamp="1613908369867">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="323" key="GridCell.Tab.1.right/0.23.1680.970@0.23.1680.970" timestamp="1613908369867" />
+    <state x="2240" y="-206" key="Vcs.Push.Dialog.v2" timestamp="1606304093276">
       <screen x="1680" y="-474" width="1920" height="1057" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.0.center/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606303561755" />
-    <state width="1878" height="268" key="GridCell.Tab.0.left" timestamp="1606303561754">
-      <screen x="1680" y="-474" width="1920" height="1057" />
-    </state>
-    <state width="1878" height="268" key="GridCell.Tab.0.left/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606303561754" />
-    <state width="1878" height="268" key="GridCell.Tab.0.right" timestamp="1606303561755">
-      <screen x="1680" y="-474" width="1920" height="1057" />
-    </state>
-    <state width="1878" height="268" key="GridCell.Tab.0.right/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606303561755" />
+    <state x="2240" y="-206" key="Vcs.Push.Dialog.v2/1680.-474.1920.1057/0.23.1680.970@1680.-474.1920.1057" timestamp="1606304093276" />
     <state x="2305" y="-239" width="670" height="676" key="search.everywhere.popup" timestamp="1606301869496">
       <screen x="1680" y="-474" width="1920" height="1057" />
     </state>
