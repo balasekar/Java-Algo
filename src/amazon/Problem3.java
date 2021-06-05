@@ -1,5 +1,8 @@
 package amazon;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Problem3 {
     public static void main(String[] args) {
         Solution3 sol = new Solution3();
@@ -9,55 +12,64 @@ public class Problem3 {
 }
 
 class Solution3 {
-    int[][] distanceMatrix;
-    public int solution(int K, int[][] A) {
-        int noOfPlotsAvailable = 0;
-        int numberOfHouses = 0;
-        this.distanceMatrix = new int[A.length][A[0].length];
-        for (int i=0; i<A.length; i++) {
-            for(int j=0; j<A[i].length; j++) {
-                System.out.print(A[i][j]);
-                if(A[i][j] == 1) {
-                    boolean[][] visitedMatrix = new boolean[A.length][A[0].length];
-                    markReachablePlots(A, K, i, j, visitedMatrix);
-                    numberOfHouses++;
-                }
-            }
-            System.out.println();
-        }
-        System.out.println();
-        for (int i=0; i<A.length; i++) {
-            for (int j = 0; j < A[i].length; j++) {
-                System.out.print(this.distanceMatrix[i][j]);
-                if(this.distanceMatrix[i][j] == numberOfHouses) {
-                    noOfPlotsAvailable++;
-                }
-            }
-            System.out.println();
-        }
 
-        return noOfPlotsAvailable;
+    int[] dr = {-1, 1, 0, 0};
+    int[] dc = {0, 0, -1, 1};
+
+    public int solution(int K, int[][] A) {
+        if (A == null || A.length == 0) return 0;
+        int m = A.length;
+        int n = A[0].length;
+        int result = 0;
+        int numberOfHouses = 0;
+        System.out.println("K:" + K + " Given Matrix:");
+        for (int[] ints : A) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(ints[j]);
+                if (ints[j] == 1) numberOfHouses++;
+            }
+            System.out.println();
+        }
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (A[i][j] == 0) {
+                    int housesReachable = getNumberOfHousesReachable(A, K, m, n, i, j);
+                    System.out.println("housesReachable : "+housesReachable);
+                    if(housesReachable == numberOfHouses) {
+                        result++;
+                    }
+                }
+            }
+        }
+        return result;
     }
 
-    public void markReachablePlots(int[][] A, int dist, int row, int col, boolean[][] visited) {
-        if(row < 0 || row >= A.length || col < 0 || col >= A[row].length || visited[row][col]) return;
-        visited[row][col] = true;
-        if(dist == 0) return;
-        if(row+1 < A.length && !visited[row + 1][col] ) {
-            this.distanceMatrix[row + 1][col]++;
-            markReachablePlots(A, dist-1, row+1, col, visited);
+    public int getNumberOfHousesReachable(int[][] A, int K, int m, int n, int R, int C) {
+        Queue<int[]> queue = new LinkedList<>();
+        queue.add(new int[] {R,C,K});
+        int numberOfHousesReachable=0;
+        boolean[][] seen = new boolean[m][n];
+        seen[R][C] = true;
+
+        while(!queue.isEmpty()) {
+            int[] cur = queue.poll();
+            int r = cur[0];
+            int c = cur[1];
+            System.out.println("cur:"+r+","+c);
+            for(int i =0; i<4; i++) {
+                int nr = r + dr[i];
+                int nc = c + dc[i];
+                int movesLeft = cur[2];
+                if(nr < 0 || nr >= m || nc < 0 || nc >= n || movesLeft<= 0 || seen[nr][nc]) continue;
+
+                seen[nr][nc] = true;
+                if(A[nr][nc] == 1) {
+                    numberOfHousesReachable++;
+                } else {
+                    queue.offer(new int[] {nr, nc, movesLeft-1});
+                }
+            }
         }
-        if(row-1 >= 0 && !visited[row - 1][col]) {
-            this.distanceMatrix[row - 1][col]++;
-            markReachablePlots(A, dist-1, row-1, col, visited);
-        }
-        if(col+1 < A[row].length && !visited[row][col + 1]) {
-            this.distanceMatrix[row][col + 1]++;
-            markReachablePlots(A, dist-1, row, col+1, visited);
-        }
-        if(col-1 >= 0 && !visited[row][col - 1]) {
-            this.distanceMatrix[row][col - 1]++;
-            markReachablePlots(A, dist-1, row, col-1, visited);
-        }
+        return numberOfHousesReachable;
     }
 }

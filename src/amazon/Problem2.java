@@ -4,6 +4,7 @@ public class Problem2 {
     public static void main(String[] args) {
         Solution2 sol = new Solution2();
         System.out.println("Ans:: "+ sol.solution(2, new int[][]{{0,0,0,0}, {0,0,1,0}, {1,0,0,1}}));
+        System.out.println("Ans:: "+ sol.solution(4, new int[][]{{0,0,0,1}, {0,1,0,0}, {0,0,1,0}, {1,0,0,0}, {0,0,0,0}}));
     }
 }
 
@@ -15,7 +16,6 @@ class Solution2 {
         this.distanceMatrix = new int[A.length][A[0].length];
         for (int i=0; i<A.length; i++) {
             for(int j=0; j<A[i].length; j++) {
-                // Do BFS on houses
                 if(A[i][j] == 1) {
                     boolean[][] visitedMatrix = new boolean[A.length][A[0].length];
                     markReachablePlots(A, K, i, j, visitedMatrix);
